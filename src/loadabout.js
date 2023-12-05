@@ -49,19 +49,20 @@ export function loadAbout() {
     adress.classList.add('adress');
     adress.innerHTML = '<p>Hogsmeade, Station Street 4. Tel. 888-555-666</p>';
     aboutText.appendChild(adress);
-    
-    const br = document.createElement('br');
-    aboutText.appendChild(br);
+    const brOne = document.createElement('br');
+    aboutText.appendChild(brOne);
     
     const paraOne = document.createElement('p');
     paraOne.textContent = `We are a team of enthusiasts dedicated to creating unforgettable moments filled with taste and satisfaction. At our establishment, you'll discover refined dishes crafted from the freshest ingredients, along with an atmosphere of warmth and hospitality.`
     aboutText.appendChild(paraOne);
-    aboutText.appendChild(br);
+    const brTwo = document.createElement('br');
+    aboutText.appendChild(brTwo);
 
     const paraTwo = document.createElement('p');
     paraTwo.textContent = `Our goal is not only to satiate your taste buds but also to curate a special evening where flavor and ambiance intertwine in a unique dance. Our chefs skillfully master the art of cooking, and our team's service will leave you with delightful impressions.`
     aboutText.appendChild(paraTwo);
-    aboutText.appendChild(br);
+    const brThree = document.createElement('br');
+    aboutText.appendChild(brThree);
 
     const paraThree = document.createElement('p');
     paraThree.textContent = `We believe that food brings people together, and here in our restaurant, we aim to create shared moments of joy, laughter, and indulgence. Come join us, and let us treat you to the finest flavors!`
