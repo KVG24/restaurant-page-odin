@@ -42,7 +42,7 @@ export function loadAbout() {
     aboutText.classList.add('about-text');
     
     const header = document.createElement('h2');
-    header.textContent = 'Come see us';
+    header.textContent = 'Visit us';
     aboutText.appendChild(header);
     
     const adress = document.createElement('div');
