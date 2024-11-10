@@ -44,13 +44,13 @@ header {
     justify-content: center;
 }
 
-header ul {
+header nav {
     display: flex;
     justify-content: space-between;
     width: 70%;
 }
 
-header li {
+header button {
     list-style: none;
     flex-grow: 1;
     display: flex;
@@ -61,6 +61,7 @@ header li {
     color: white;
     cursor: pointer;
     transition: 100ms;
+    background-color: rgba(138, 75, 75, 0.8);
 }
 
 header li:hover {
@@ -213,6 +214,7 @@ td {
 .about-image {
     width: 80%;
     margin: 0 auto;
+    display: block;
 }
 
 @media (max-width: 1600px) {

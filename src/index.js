@@ -7,33 +7,33 @@ const content = document.querySelector('.content');
 
 function loadHeader() {
     const header = document.createElement('header');
-    const ul = document.createElement('ul');
-    const liHome = document.createElement('li');
-    liHome.setAttribute('id', 'home');
-    liHome.textContent = 'Home';
-    const liMenu = document.createElement('li');
-    liMenu.setAttribute('id', 'menu');
-    liMenu.textContent = 'Menu';
-    const liAbout = document.createElement('li');
-    liAbout.setAttribute('id', 'about');
-    liAbout.textContent = 'About';
-    ul.appendChild(liHome);
-    ul.appendChild(liMenu);
-    ul.appendChild(liAbout);
-    header.appendChild(ul);
+    const nav = document.createElement('nav');
+    const homeBtn = document.createElement('button');
+    homeBtn.setAttribute('id', 'home');
+    homeBtn.textContent = 'Home';
+    const menuBtn = document.createElement('button');
+    menuBtn.setAttribute('id', 'menu');
+    menuBtn.textContent = 'Menu';
+    const aboutBtn = document.createElement('button');
+    aboutBtn.setAttribute('id', 'about');
+    aboutBtn.textContent = 'About';
+    nav.appendChild(homeBtn);
+    nav.appendChild(menuBtn);
+    nav.appendChild(aboutBtn);
+    header.appendChild(nav);
     content.appendChild(header);
-    liHome.addEventListener('click', () => {
+    homeBtn.addEventListener('click', () => {
         clearPage();
         loadHeader();
         loadHome();
     });
     
-    liMenu.addEventListener('click', () => {
+    menuBtn.addEventListener('click', () => {
         clearPage();
         loadHeader();
         loadMenu();
     });
-    liAbout.addEventListener('click', () => {
+    aboutBtn.addEventListener('click', () => {
         clearPage();
         loadHeader();
         loadAbout();
