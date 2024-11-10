@@ -1,3 +1,10 @@
+import cake from "./images/cake.jpg";
+import cherryCocktail from "./images/cherry-cocktail.jpg";
+import croissantSandwich from "./images/croissant-sandwich.jpg";
+import whiteWine from "./images/white-wine.jpg";
+import pizza from "./images/pizza.jpg";
+import mojito from "./images/mojito.jpg"
+
 export function loadMenu() {
     const content = document.querySelector('.content');
 
@@ -8,9 +15,9 @@ export function loadMenu() {
 
     const itemOne = document.createElement('div');
     itemOne.classList.add('item');
-    const imgOne = document.createElement('div');
+    const imgOne = document.createElement('img');
     imgOne.classList.add('img');
-    imgOne.innerHTML = `<img src="images/cake.jpg" alt="Cake">`;
+    imgOne.src = cake;
     const descOne = document.createElement('div');
     descOne.classList.add('desc');
     descOne.innerHTML = `<h3>Christmass cake</h3>
@@ -22,9 +29,9 @@ export function loadMenu() {
 
     const itemTwo = document.createElement('div');
     itemTwo.classList.add('item');
-    const imgTwo = document.createElement('div');
+    const imgTwo = document.createElement('img');
     imgTwo.classList.add('img');
-    imgTwo.innerHTML = `<img src="images/cherry-cocktail.jpg" alt="Cherry cocktail">`;
+    imgTwo.src = cherryCocktail;
     const descTwo = document.createElement('div');
     descTwo.classList.add('desc');
     descTwo.innerHTML = `<h3>Cherry cocktail</h3>
@@ -36,9 +43,9 @@ export function loadMenu() {
 
     const itemThree = document.createElement('div');
     itemThree.classList.add('item');
-    const imgThree = document.createElement('div');
+    const imgThree = document.createElement('img');
     imgThree.classList.add('img');
-    imgThree.innerHTML = `<img src="images/croissant-sandwich.jpg" alt="Croissant sandwich">`;
+    imgThree.src = croissantSandwich;
     const descThree = document.createElement('div');
     descThree.classList.add('desc');
     descThree.innerHTML = `<h3>Croissant sandwich</h3>
@@ -50,9 +57,9 @@ export function loadMenu() {
 
     const itemFour = document.createElement('div');
     itemFour.classList.add('item');
-    const imgFour = document.createElement('div');
+    const imgFour = document.createElement('img');
     imgFour.classList.add('img');
-    imgFour.innerHTML = `<img src="images/white-wine.jpg" alt="White wine">`;
+    imgFour.src = whiteWine;
     const descFour = document.createElement('div');
     descFour.classList.add('desc');
     descFour.innerHTML = `<h3>White wine</h3>
@@ -64,9 +71,9 @@ export function loadMenu() {
 
     const itemFive = document.createElement('div');
     itemFive.classList.add('item');
-    const imgFive = document.createElement('div');
+    const imgFive = document.createElement('img');
     imgFive.classList.add('img');
-    imgFive.innerHTML = `<img src="images/pizza.jpg" alt="Pizza">`;
+    imgFive.src = pizza;
     const descFive = document.createElement('div');
     descFive.classList.add('desc');
     descFive.innerHTML = `<h3>Pizza</h3>
@@ -78,9 +85,9 @@ export function loadMenu() {
 
     const itemSix = document.createElement('div');
     itemSix.classList.add('item');
-    const imgSix = document.createElement('div');
+    const imgSix = document.createElement('img');
     imgSix.classList.add('img');
-    imgSix.innerHTML = `<img src="images/mojito.jpg" alt="Mojito">`;
+    imgSix.src = mojito;
     const descSix = document.createElement('div');
     descSix.classList.add('desc');
     descSix.innerHTML = `<h3>Mojito</h3>

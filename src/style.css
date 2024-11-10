@@ -1,3 +1,20 @@
+@font-face {
+    font-family: "Dancing Script";
+    src: url("./fonts/DancingScript-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Ephesis";
+    src: url("./fonts/Ephesis-Regular.ttf");
+}
+@font-face {
+    font-family: "Quicksand";
+    src: url("./fonts/Quicksand-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Saira Extra Condensed";
+    src: url("./fonts/SairaExtraCondensed-Regular.ttf");
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -39,7 +56,7 @@ header li {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: "Saira Extra Condensed", sans-serif;
     font-size: 2rem;
     color: white;
     cursor: pointer;
@@ -68,7 +85,7 @@ main {
 }
 
 .welcome {
-    font-family: 'Ephesis', cursive;
+    font-family: "Ephesis", cursive;
     font-size: 3rem;
 }
 
@@ -85,12 +102,12 @@ main {
 }
 
 .text h2 {
-    font-family: 'Dancing Script', cursive;
+    font-family: "Dancing Script", cursive;
     font-size: 2rem;
 }
 
 .text p {
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 1rem;
 }
 
@@ -101,7 +118,7 @@ footer {
     justify-content: center;
     gap: 5rem;
     color: white;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
 footer a {
@@ -114,7 +131,7 @@ footer a {
 img {
     width: 100%;
     height: 100%;
-    object-fit:fill;
+    object-fit: fill;
 }
 
 .menu-wrapper {
@@ -145,12 +162,12 @@ img {
 }
 
 .desc h3 {
-    font-family: 'Dancing Script', cursive;
+    font-family: "Dancing Script", cursive;
     font-size: 2.5rem;
 }
 
 .desc p {
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
 .desc p:last-child {
@@ -172,7 +189,7 @@ td {
     border: 2px solid white;
     border-radius: 5px;
     border-collapse: collapse;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
     padding: 0.5rem;
 }
 
@@ -181,7 +198,7 @@ td {
 }
 
 .about-text h2 {
-    font-family: 'Dancing Script', cursive;
+    font-family: "Dancing Script", cursive;
     font-size: 3rem;
     text-align: center;
 }
@@ -191,14 +208,13 @@ td {
 }
 
 .about-text p {
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
 .about-image {
     width: 80%;
     margin: 0 auto;
 }
-
 
 @media (max-width: 1600px) {
     .menu-wrapper {

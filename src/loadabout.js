@@ -1,3 +1,5 @@
+import staffImg from "./images/staff.jpg"
+
 export function loadAbout() {
     const content = document.querySelector('.content');
 
@@ -70,9 +72,9 @@ export function loadAbout() {
 
     // Image
 
-    const aboutImage = document.createElement('div');
+    const aboutImage = document.createElement('img');
     aboutImage.classList.add('about-image');
-    aboutImage.innerHTML = `<img src="images/staff.jpg" alt="Staff">`
+    aboutImage.src = staffImg;
 
 
     about.appendChild(schedule);

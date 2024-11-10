@@ -1,3 +1,4 @@
+import "./style.css";
 import { loadHome } from "./loadhome";
 import { loadMenu } from "./loadmenu";
 import { loadAbout } from "./loadabout";
